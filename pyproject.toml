@@ -6,4 +6,6 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
-[tool.versioningit]
+[tool.versioningit.vcs]
+method = "git-archive"
+describe-subst = "$Format:%(describe)$"
